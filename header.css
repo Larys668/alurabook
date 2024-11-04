@@ -1,0 +1,48 @@
+.caçalho_menu-hamburguer{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-image: url("..\img\Menu.svg");
+    background-repeat: no-reapeat;
+    background-position: center;
+}
+.Caçalho {
+ background-color: var(--branco);
+ display: flex;
+ justify-content:space-between;
+ align-items: center;
+}
+
+.Container {
+    display: flex;
+    align-items: center;
+}
+
+.Container_imagem{
+    padding: 1em;
+}
+
+.lista-menu-titulo,{
+color:var (--laranja);
+font-weigth: 700;
+}
+
+.lista-menu_item{
+    padding:1em;
+    background-color: var (--branco);
+    color: var(--azul-degrade);
+
+}
+.lista-menu_link{
+    background: var (--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: uppercase;
+}   
+
+lista-menu{
+    display:none;
+    position:absolute;
+    top: 100%;
+    width:60w;
+}
